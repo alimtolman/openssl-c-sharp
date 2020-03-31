@@ -53,7 +53,7 @@ namespace TestOpenSsl
 
         static void Main(string[] args)
         {
-            string proxyHost = "192.168.86.219";
+            string proxyHost = "127.0.0.1";
             int proxyPort = 8888;
             string host = "example.com";
             int port = 443;

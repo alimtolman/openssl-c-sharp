@@ -19,7 +19,7 @@ namespace TestOpenSsl
         public extern static IntPtr SSL_CTX_new(IntPtr method);
 
         [DllImport(SslDllName, CallingConvention = CallingConvention.Cdecl)]
-        public extern static IntPtr SSL_CTX_free(IntPtr ctx);
+        public extern static void SSL_CTX_free(IntPtr ctx);
 
         [DllImport(SslDllName, CallingConvention = CallingConvention.Cdecl)]
         public extern static IntPtr SSL_new(IntPtr ctx);

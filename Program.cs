@@ -95,7 +95,6 @@ namespace TestOpenSsl
             if (setFdResult == 0)
             {
                 Console.WriteLine("Set socket handle error");
-
                 return;
             }
 
